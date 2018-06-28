@@ -1,0 +1,21 @@
+---
+title: "A Test of some stuff"
+output: github_document
+---
+
+Clear environment and load packages
+```{r message=FALSE, warning=FALSE}
+rm(list=ls())
+gc()
+library(RColorBrewer)
+library(dplyr)
+library(gdata)
+library(wordcloud)
+library(tm)
+```
+
+Example
+```{r}
+x <- runif(100)
+plot(x)
+```
